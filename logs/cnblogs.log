@@ -1,0 +1,130 @@
+2022-07-23 at 18:06:38 CST INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting DaoTest using Java 1.8.0_281 on DESKTOP-7NJJPOO with PID 1768 (started by woshihaoren in D:\springboot_01\springboot_01_redis)
+2022-07-23 at 18:06:38 CST DEBUG org.springframework.boot.StartupInfoLogger 56 logStarting - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-07-23 at 18:06:38 CST INFO  org.springframework.boot.SpringApplication 640 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-07-23 at 18:06:39 CST DEBUG com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$AutoConfiguredMapperScannerRegistrar 295 registerBeanDefinitions - Searching for mappers annotated with @Mapper
+2022-07-23 at 18:06:39 CST DEBUG com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$AutoConfiguredMapperScannerRegistrar 299 lambda$registerBeanDefinitions$0 - Using auto-configuration base package 'com.itheima.springboot_01_ssm_startquick'
+2022-07-23 at 18:06:39 CST DEBUG org.apache.ibatis.logging.LogFactory 109 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-07-23 at 18:06:39 CST DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider 435 scanCandidateComponents - Identified candidate component class: file [D:\springboot_01\springboot_01_redis\target\classes\com\itheima\springboot_01_ssm_startquick\dao\BookMapper.class]
+2022-07-23 at 18:06:39 CST DEBUG org.mybatis.logging.Logger 49 debug - Creating MapperFactoryBean with name 'bookMapper' and 'com.itheima.springboot_01_ssm_startquick.dao.BookMapper' mapperInterface
+2022-07-23 at 18:06:39 CST DEBUG org.mybatis.logging.Logger 49 debug - Enabling autowire by type for MapperFactoryBean with name 'bookMapper'.
+2022-07-23 at 18:06:40 CST INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+2022-07-23 at 18:06:40 CST INFO  com.alibaba.druid.pool.DruidDataSource 990 init - {dataSource-1} inited
+2022-07-23 at 18:06:41 CST DEBUG com.alicp.jetcache.anno.aop.CachePointcut 102 matches - check method match true: method=getById, declaringClass=c.i.s.c.BookController, targetClass=c.i.s.c.BookController
+2022-07-23 at 18:06:41 CST DEBUG com.alicp.jetcache.anno.aop.CachePointcut 102 matches - check method match true: method=getById, declaringClass=c.i.s.c.BookController, targetClass=c.i.s.c.BookController
+2022-07-23 at 18:06:42 CST DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 295 detectHandlerMethods - 
+	c.i.s.c.BookController:
+	{PUT [/books]}: put(Book)
+	{DELETE [/books/{id}]}: delete(Integer)
+	{POST [/books]}: save(Book)
+	{GET [/books]}: getAll()
+	{GET [/books/{id}]}: getById(Integer)
+	{GET [/books/{pageCurrent}/{pageSize}]}: getPage(Integer,Integer)
+2022-07-23 at 18:06:42 CST DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 295 detectHandlerMethods - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-07-23 at 18:06:42 CST DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping 86 detectHandlers - 'beanNameHandlerMapping' {}
+2022-07-23 at 18:06:42 CST DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 177 logMappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2022-07-23 at 18:06:42 CST INFO  com.alicp.jetcache.autoconfigure.AbstractCacheAutoInit 67 process - init cache area default , type= redis
+2022-07-23 at 18:06:42 CST DEBUG com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration 338 afterPropertiesSet - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 63 useSlf4JLoggerFactory - Using SLF4J as the default logging framework
+2022-07-23 at 18:06:42 CST DEBUG io.lettuce.core.resource.AddressResolverGroupProvider 37 <clinit> - Starting without optional netty's non-blocking DNS resolver library
+2022-07-23 at 18:06:42 CST DEBUG io.lettuce.core.resource.DefaultClientResources 122 <clinit> - -Dio.netty.eventLoopThreads: 8
+2022-07-23 at 18:06:42 CST DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider 231 createEventLoopGroup - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 86 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 89 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 196 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5b02a984
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent0 460 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent0 954 javaVersion0 - Java version: 8
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent0 135 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent0 159 <clinit> - sun.misc.Unsafe.copyMemory: available
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent0 202 <clinit> - java.nio.Buffer.address: available
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent0 272 <clinit> - direct buffer constructor: available
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent0 350 <clinit> - java.nio.Bits.unaligned: available, true
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent0 424 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent0 446 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent 1116 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent 1246 tmpdir0 - -Dio.netty.tmpdir: C:\Users\WOSHIH~1\AppData\Local\Temp (java.io.tmpdir)
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent 1325 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent 1076 isWindows0 - Platform: Windows
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent 178 <clinit> - -Dio.netty.maxDirectMemory: 1843920896 bytes
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent 205 <clinit> - -Dio.netty.noPreferDirect: false
+2022-07-23 at 18:06:42 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 967 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2022-07-23 at 18:06:42 CST DEBUG reactor.util.Loggers$Slf4JLogger 245 debug - Using Slf4j logging framework
+2022-07-23 at 18:06:42 CST DEBUG io.lettuce.core.event.jfr.EventRecorderHolder 55 <clinit> - Starting without optional JFR support. JFR unavailable.
+2022-07-23 at 18:06:42 CST DEBUG io.lettuce.core.resource.DefaultClientResources 227 <init> - LatencyUtils/HdrUtils are not available, metrics are disabled
+2022-07-23 at 18:06:43 CST INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started DaoTest in 4.925 seconds (JVM running for 6.855)
+2022-07-23 at 18:06:45 CST DEBUG io.lettuce.core.AbstractRedisClient 539 shutdownAsync - Initiate shutdown (100, 100, MILLISECONDS)
+2022-07-23 at 18:06:45 CST DEBUG io.lettuce.core.resource.DefaultClientResources 735 shutdown - Initiate shutdown (0, 2, SECONDS)
+2022-07-23 at 18:06:45 CST DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider 317 shutdown - Initiate shutdown (0, 2, SECONDS)
+2022-07-23 at 18:06:45 CST INFO  com.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-1} closing ...
+2022-07-23 at 18:06:45 CST INFO  com.alibaba.druid.pool.DruidDataSource 2116 close - {dataSource-1} closed
+2022-07-23 at 18:07:58 CST INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting DaoTest using Java 1.8.0_281 on DESKTOP-7NJJPOO with PID 3316 (started by woshihaoren in D:\springboot_01\springboot_01_redis)
+2022-07-23 at 18:07:58 CST DEBUG org.springframework.boot.StartupInfoLogger 56 logStarting - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-07-23 at 18:07:58 CST INFO  org.springframework.boot.SpringApplication 640 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-07-23 at 18:07:59 CST DEBUG com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$AutoConfiguredMapperScannerRegistrar 295 registerBeanDefinitions - Searching for mappers annotated with @Mapper
+2022-07-23 at 18:07:59 CST DEBUG com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$AutoConfiguredMapperScannerRegistrar 299 lambda$registerBeanDefinitions$0 - Using auto-configuration base package 'com.itheima.springboot_01_ssm_startquick'
+2022-07-23 at 18:07:59 CST DEBUG org.apache.ibatis.logging.LogFactory 109 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-07-23 at 18:07:59 CST DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider 435 scanCandidateComponents - Identified candidate component class: file [D:\springboot_01\springboot_01_redis\target\classes\com\itheima\springboot_01_ssm_startquick\dao\BookMapper.class]
+2022-07-23 at 18:07:59 CST DEBUG org.mybatis.logging.Logger 49 debug - Creating MapperFactoryBean with name 'bookMapper' and 'com.itheima.springboot_01_ssm_startquick.dao.BookMapper' mapperInterface
+2022-07-23 at 18:07:59 CST DEBUG org.mybatis.logging.Logger 49 debug - Enabling autowire by type for MapperFactoryBean with name 'bookMapper'.
+2022-07-23 at 18:08:00 CST INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+2022-07-23 at 18:08:00 CST INFO  com.alibaba.druid.pool.DruidDataSource 990 init - {dataSource-1} inited
+2022-07-23 at 18:08:01 CST DEBUG com.alicp.jetcache.anno.aop.CachePointcut 102 matches - check method match true: method=getById, declaringClass=c.i.s.c.BookController, targetClass=c.i.s.c.BookController
+2022-07-23 at 18:08:01 CST DEBUG com.alicp.jetcache.anno.aop.CachePointcut 102 matches - check method match true: method=getById, declaringClass=c.i.s.c.BookController, targetClass=c.i.s.c.BookController
+2022-07-23 at 18:08:02 CST DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 295 detectHandlerMethods - 
+	c.i.s.c.BookController:
+	{PUT [/books]}: put(Book)
+	{DELETE [/books/{id}]}: delete(Integer)
+	{POST [/books]}: save(Book)
+	{GET [/books]}: getAll()
+	{GET [/books/{id}]}: getById(Integer)
+	{GET [/books/{pageCurrent}/{pageSize}]}: getPage(Integer,Integer)
+2022-07-23 at 18:08:02 CST DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 295 detectHandlerMethods - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-07-23 at 18:08:02 CST DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping 86 detectHandlers - 'beanNameHandlerMapping' {}
+2022-07-23 at 18:08:02 CST DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 177 logMappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2022-07-23 at 18:08:02 CST INFO  com.alicp.jetcache.autoconfigure.AbstractCacheAutoInit 67 process - init cache area default , type= redis
+2022-07-23 at 18:08:02 CST DEBUG com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration 338 afterPropertiesSet - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 63 useSlf4JLoggerFactory - Using SLF4J as the default logging framework
+2022-07-23 at 18:08:02 CST DEBUG io.lettuce.core.resource.AddressResolverGroupProvider 37 <clinit> - Starting without optional netty's non-blocking DNS resolver library
+2022-07-23 at 18:08:02 CST DEBUG io.lettuce.core.resource.DefaultClientResources 122 <clinit> - -Dio.netty.eventLoopThreads: 8
+2022-07-23 at 18:08:02 CST DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider 231 createEventLoopGroup - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 86 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 89 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory 196 newResourceLeakDetector - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@261f359f
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent0 460 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent0 954 javaVersion0 - Java version: 8
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent0 135 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent0 159 <clinit> - sun.misc.Unsafe.copyMemory: available
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent0 202 <clinit> - java.nio.Buffer.address: available
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent0 272 <clinit> - direct buffer constructor: available
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent0 350 <clinit> - java.nio.Bits.unaligned: available, true
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent0 424 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent0 446 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent 1116 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent 1246 tmpdir0 - -Dio.netty.tmpdir: C:\Users\WOSHIH~1\AppData\Local\Temp (java.io.tmpdir)
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent 1325 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent 1076 isWindows0 - Platform: Windows
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent 178 <clinit> - -Dio.netty.maxDirectMemory: 1843920896 bytes
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent 185 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent 205 <clinit> - -Dio.netty.noPreferDirect: false
+2022-07-23 at 18:08:02 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 967 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2022-07-23 at 18:08:02 CST DEBUG reactor.util.Loggers$Slf4JLogger 245 debug - Using Slf4j logging framework
+2022-07-23 at 18:08:02 CST DEBUG io.lettuce.core.event.jfr.EventRecorderHolder 55 <clinit> - Starting without optional JFR support. JFR unavailable.
+2022-07-23 at 18:08:02 CST DEBUG io.lettuce.core.resource.DefaultClientResources 227 <init> - LatencyUtils/HdrUtils are not available, metrics are disabled
+2022-07-23 at 18:08:03 CST INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started DaoTest in 5.135 seconds (JVM running for 7.284)
+2022-07-23 at 18:08:05 CST DEBUG io.lettuce.core.AbstractRedisClient 539 shutdownAsync - Initiate shutdown (100, 100, MILLISECONDS)
+2022-07-23 at 18:08:05 CST DEBUG io.lettuce.core.resource.DefaultClientResources 735 shutdown - Initiate shutdown (0, 2, SECONDS)
+2022-07-23 at 18:08:05 CST DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider 317 shutdown - Initiate shutdown (0, 2, SECONDS)
+2022-07-23 at 18:08:05 CST INFO  com.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-1} closing ...
+2022-07-23 at 18:08:05 CST INFO  com.alibaba.druid.pool.DruidDataSource 2116 close - {dataSource-1} closed
