@@ -22,11 +22,7 @@ public class BookController {
 
         return new R(true,iBookService.list());
     }
-    @PostMapping
-    public R save(@RequestBody Book book) {
 
-        return new R(iBookService.save(book));
-    }
 
     @DeleteMapping("{id}")
     public R delete(Integer id) {

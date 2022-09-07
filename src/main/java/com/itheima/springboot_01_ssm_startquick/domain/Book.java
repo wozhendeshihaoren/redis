@@ -5,6 +5,9 @@ import lombok.Data;
 
 import java.io.Serializable;
 
+/**
+ * @author woshihaoren
+ */
 @Data
 public class Book implements Serializable {
 

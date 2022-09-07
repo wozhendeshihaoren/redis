@@ -4,11 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a36c9b01-edd1-4804-89bf-a77d0291c98d" name="Changes" comment="" />
+    <list default="true" id="a36c9b01-edd1-4804-89bf-a77d0291c98d" name="Changes" comment="这是redis练习demo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/QuartzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/activeMQ/ActiveMQTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/activeMQ/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/activeMQ/activeLister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/config/MPConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/config/QuartzConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/dao/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/dao/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/domain/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/domain/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/service/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/service/IBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/service/Impl/BookServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/service/Impl/SendMailImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/springboot_01_ssm_startquick/service/SendMail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/itheima/springboot_01_ssm_startquick/DaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/itheima/springboot_01_ssm_startquick/MailTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/itheima/springboot_01_ssm_startquick/SSMApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itheima/springboot_01_ssm_startquick/SSMApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/QuartzTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/activeMQ/ActiveMQTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/activeMQ/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/activeMQ/activeLister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/config/MPConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/domain/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/domain/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/domain/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/domain/R.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/service/Impl/BookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/service/Impl/SendMailImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/springboot_01_ssm_startquick/service/SendMail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itheima/springboot_01_ssm_startquick/DaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itheima/springboot_01_ssm_startquick/MailTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itheima/springboot_01_ssm_startquick/SSMApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/itheima/springboot_01_ssm_startquick/SSMApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,6 +72,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
   <component name="ProjectId" id="2CChGVcTXSGFqU9uxXXAnf2cQ9v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,21 +85,27 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot_01_beauty" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.15735294" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.redisTest.redistest">
+  <component name="RunManager" selected="Spring Boot.SSMApplication">
     <configuration name="DaoTest.active" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_01_redis" />
       <extension name="coverage">
@@ -68,22 +117,6 @@
       <option name="PACKAGE_NAME" value="com.itheima.springboot_01_ssm_startquick" />
       <option name="MAIN_CLASS_NAME" value="com.itheima.springboot_01_ssm_startquick.DaoTest" />
       <option name="METHOD_NAME" value="active" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DaoTest.getId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_01_redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.springboot_01_ssm_startquick.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.springboot_01_ssm_startquick" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.springboot_01_ssm_startquick.DaoTest" />
-      <option name="METHOD_NAME" value="getId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,6 +154,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SSMApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_01_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.springboot_01_ssm_startquick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.springboot_01_ssm_startquick" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.springboot_01_ssm_startquick.SSMApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="redisTest.redistest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_01_redis" />
       <extension name="coverage">
@@ -146,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SSMApplicationTests.contextLoads" />
         <item itemvalue="JUnit.redisTest.redistest" />
         <item itemvalue="JUnit.MongoDB.mongoTest" />
         <item itemvalue="JUnit.MailTest.test" />
         <item itemvalue="JUnit.DaoTest.active" />
-        <item itemvalue="JUnit.DaoTest.getId" />
       </list>
     </recent_temporary>
   </component>
@@ -174,10 +223,52 @@
       <workItem from="1661810085340" duration="85000" />
       <workItem from="1661866976415" duration="1290000" />
       <workItem from="1662430526215" duration="2585000" />
+      <workItem from="1662434986509" duration="1064000" />
+      <workItem from="1662446075900" duration="1096000" />
+      <workItem from="1662447246363" duration="2263000" />
+      <workItem from="1662450111049" duration="260000" />
+      <workItem from="1662451945298" duration="4171000" />
+      <workItem from="1662531776187" duration="1246000" />
     </task>
+    <task id="LOCAL-00001" summary="这是redis练习demo">
+      <created>1662435240389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662435240389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="这是redis练习demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="这是redis练习demo" />
   </component>
 </project>

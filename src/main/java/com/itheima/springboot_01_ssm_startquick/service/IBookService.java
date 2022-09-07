@@ -6,6 +6,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.itheima.springboot_01_ssm_startquick.domain.Book;
 import com.sun.org.apache.xpath.internal.operations.Bool;
 
+/**
+ * @author woshihaoren
+ */
 public interface IBookService extends IService<Book> {
 
     public IPage<Book> getPage(Integer pageCurrent,Integer pageSize);
